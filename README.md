@@ -1,6 +1,6 @@
 # WoWSims Auto-Updater
 
-This script is designed to automatically update the World of Warcraft Simulator (WoW Sim) for Season of Discovery (Classic Era), Wrath of the Lich King (WotLK) or Cataclysm. It checks for the latest release of the simulator from a specified GitHub repository, downloads it if it is newer than the current version, and then unzips and runs the simulator.
+This script is designed to automatically update the World of Warcraft Simulator (WoW Sim) for Season of Discovery (Classic Era), Wrath of the Lich King (WotLK), Cataclysm or Mists of Pandaria (MoP). It checks for the latest release of the simulator from a specified GitHub repository, downloads it if it is newer than the current version, and then unzips and runs the simulator.
 
 ## Features
 
