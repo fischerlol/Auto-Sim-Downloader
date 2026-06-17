@@ -22,11 +22,16 @@ wotlk_api_repo_url = 'https://api.github.com/repos/wowsims/wotlk/releases/latest
 wotlk_release_file_name = 'wowsimwotlk-windows.exe.zip'
 wotlk_file_name = 'wowsimwotlk-windows.exe'
 
+# Mists of Pandaria
+mop_api_repo_url = 'https://api.github.com/repos/wowsims/mop/releases/latest'
+mop_release_file_name = 'wowsimmop-windows.exe.zip'
+mop_file_name = 'wowsimmop-windows.exe'
+
+
 # Season of Discovery
 sod_api_repo_url = 'https://api.github.com/repos/wowsims/sod/releases/latest'
 sod_release_file_name = 'wowsimsod-windows.exe.zip'
 sod_file_name = 'wowsimsod-windows.exe'
-
 
 def file_exists(file_path):
     # check if given file exists
@@ -123,16 +128,17 @@ def cataclysm():
     download_sim(cata_api_repo_url, cata_release_file_name, cata_file_name)
     run_sim(cata_file_name)
 
-
 def wrath_of_the_lich_king():
     download_sim(wotlk_api_repo_url, wotlk_release_file_name, wotlk_file_name)
     run_sim(wotlk_file_name)
 
+def mists_of_pandaria():
+    download_sim(mop_api_repo_url, mop_release_file_name, mop_file_name)
+    run_sim(mop_file_name)
 
 def season_of_discovery():
     download_sim(sod_api_repo_url, sod_release_file_name, sod_file_name)
     run_sim(sod_file_name)
 
-
 if __name__ == "__main__":
-    cataclysm()
+    mists_of_pandaria()
