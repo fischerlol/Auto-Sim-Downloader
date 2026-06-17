@@ -1,4 +1,4 @@
-# WoW Sim Sod/WotLK/Cataclysm Auto-Updater
+# WoWSims Auto-Updater
 
 This script is designed to automatically update the World of Warcraft Simulator (WoW Sim) for Season of Discovery (Classic Era), Wrath of the Lich King (WotLK) or Cataclysm. It checks for the latest release of the simulator from a specified GitHub repository, downloads it if it is newer than the current version, and then unzips and runs the simulator.
 
@@ -21,7 +21,6 @@ Before running this script, ensure you have Python 3.x installed on your system.
 ```
 pip install -r requirements.txt
 ```
-
 
 The script will:
 
